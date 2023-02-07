@@ -1,0 +1,59 @@
+.s_main_bg {background-color:#faebd7;}
+.s_main_bg main {}
+.s_main_bg main .s_main {
+    max-width:1340px; margin:0 auto;
+    margin-top:60px;
+}
+.s_main_bg main .sm1 {overflow:hidden;}
+.s_main_bg main .s_main .sm_left {padding:82px 20px 0; width:320px; position:fixed;}
+.s_main_bg main .s_main .sm_left .sm_menu {
+    background-color:#fff; border-radius:30px;
+    padding:30px 20px; width:100%;
+}
+.s_main_bg main .s_main .sm_left .sm_menu > ul {}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li {
+    display:flex; flex-flow:column nowrap;
+}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li > a {
+    border-bottom:1px solid #faebd7;
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    align-items:center; padding:10px 0;
+}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li > a:hover {color:#ce0e2d;}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li > a > img {width:24px; height:24px;}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub {}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub > li {}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub > li > a {
+    padding:10px 0 10px 30px;
+    display:flex; flex-flow:row nowrap; align-items:center;
+}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub > li > a:hover {color:#ce0e2d;}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub > li:last-child > a {
+    border-bottom:1px solid #faebd7; width:100%;
+}
+.s_main_bg main .s_main .sm_left .sm_menu > ul > li .sm_menu_sub > li a span {
+    display:inline-block; width:8px; height:8px; line-height:8px; border-radius:50%;
+    background-color:#222; margin-right:10px;
+}
+.s_main_bg main .s_main .sm_right {padding:30px 0; width:calc(100% - 330px); float:right;}
+.s_main_bg main .s_main .sm_right h1 {font-size:2rem;}
+.s_main_bg main .s_main .sm_right .sm_right_contents {
+    width:100%; background-color:#fff; border-radius:30px;
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    margin-top:20px; overflow:hidden;
+}
+.s_main_bg main .s_main .sm_right .c1 .sm_r_contents_img {background-image:url(../images/sub/matebook14.jpg);}
+.s_main_bg main .s_main .sm_right .c2 .sm_r_contents_img {background-image:url(../images/sub/matebookd14.jpg);}
+.s_main_bg main .s_main .sm_right .c3 .sm_r_contents_img {background-image:url(../images/sub/matebookd15.jpg);}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_img {
+    width:40%; background-size:100%; background-position:center; background-repeat:no-repeat;
+}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_txt {
+    width:60%; text-align:center; padding:100px 90px;
+}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_txt h2 {font-size:32px;}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_txt p {line-height:1.4; margin:20px 0;}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_txt a {
+    font-size:1.25rem; padding:10px 40px; background-color:#222; border-radius:30px; color:#fff; display:inline-block;
+}
+.s_main_bg main .s_main .sm_right .sm_right_contents .sm_r_contents_txt a:hover {background-color:#ce0e2d;}

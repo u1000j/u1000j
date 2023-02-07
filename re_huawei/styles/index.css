@@ -1,0 +1,196 @@
+.main_bg {background-color:#faebd7;}
+.main_bg main {}
+.main_bg main .main {height:100vh;}
+/* m1_bnr */
+.main_bg main .m1_bnr {width:100%; background-color:#fff;}
+.main_bg main .m1_bnr .swiper-container {width:100%; overflow:hidden;}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper {}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide {position:relative;}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_i {}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_i img {
+    background-size:cover; background-position:center;
+}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt {
+    display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;
+    position:absolute; top:35%; right:10%;
+}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt h2 {font-size:4rem;}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt p {
+    font-size:2rem; line-height:1.4;
+    margin:40px 0 60px;
+}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt .a_group {}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt .a_group a {
+    padding:10px 40px; background-color:#222; color:#fff; font-size:1.25rem;
+    margin-right:25px; border-radius:30px;
+}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt .a_group a:hover {background-color:#ce0e2d;}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .swiper-slide .slide_txt .a_group a:last-child {margin-right:0;}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .slide1 {}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .slide2 {}
+.main_bg main .m1_bnr .swiper-container .swiper-wrapper .slide3 {}
+/* active-pagination */
+.main_bg main .m1_bnr .swiper-container .swiper-pagination {margin-bottom:45px;}
+.main_bg main .m1_bnr .swiper-container .swiper-pagination-bullet {height:16px; width:16px; margin-right:16px;}
+.main_bg main .m1_bnr .swiper-container .swiper-pagination-bullet-active {
+    background-color:#ce0e2d;
+}
+/* m2,m3,m4 공통 */
+.main_bg main .m2_notebook,
+.main_bg main .m3_tablet,
+.main_bg main .m4_wearable {
+    height:100vh; max-width:1340px; margin:0 auto;
+    overflow:hidden; display:flex; flex-flow:column;
+    justify-content:center;
+}
+.main_bg main .main > h1 {font-size:3rem;}
+.main_bg main .main > .top {
+    height:35%; display:flex; flex-flow:row nowrap;
+    background-color:#fff; border-radius:30px;  margin:20px 0;
+}
+.main_bg main .main > .top > .top_img {
+    width:60%; overflow:hidden; border-radius:30px 0 0 30px;
+}
+.main_bg main .main > .top > .top_img > img {width:100%;}
+.main_bg main .main > .top > .top_txt {
+    width:40%; display:flex; flex-flow:column nowrap; 
+    justify-content:center; align-items:center;
+}
+.main_bg main .main > .top > .top_txt > h2 {font-size:2rem; margin-bottom:20px;}
+.main_bg main .main > .top > .top_txt > a {
+    font-size:1.25rem; padding:10px 40px;
+    background-color:#222; border-radius:30px; color:#fff;
+}
+.main_bg main .main > .top > .top_txt > a:hover {background-color:#ce0e2d; color:#fff;}
+.main_bg main .main > .btm {height:45%;}
+.main_bg main .main .btm .swiper-container {
+    width:100%; overflow:hidden; height:100%;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper {}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+    background-color:#fff; border-radius:30px; height:100%;
+    padding:0 25px;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide p {
+    width::230px; height:230px; margin-bottom:20px; overflow:hidden;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide p img {width:100%;}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide dl {
+    display:flex; flex-flow:column nowrap; 
+    text-align:center;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide dl dt {font-size:1.25rem;}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide dl dd {
+    line-height:1.4; margin:10px 0; height:68px;
+    display:flex; justify-content:center; align-items:center;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide a {
+    padding:10px 20px; background-color:#222; border-radius:30px; color:#fff;
+}
+.main_bg main .main .btm .swiper-container .swiper-wrapper .swiper-slide a:hover {background-color:#ce0e2d;}
+/* next,prev */
+.main_bg main .main .btm .swiper-container .swiper-button-prev,
+.main_bg main .main .btm .swiper-container .swiper-button-next {
+    color:#222; transform:scale(0.8);
+}
+.main_bg main .main .btm .swiper-container .swiper-button-prev:hover,
+.main_bg main .main .btm .swiper-container .swiper-button-next:hover {color:#ce0e2d;}
+/* m2_notebook */
+.main_bg main .m2_notebook {}
+.main_bg main .m2_notebook h1 {}
+.main_bg main .m2_notebook .m2_top {}
+.main_bg main .m2_notebook .m2_top .top_img {}
+.main_bg main .m2_notebook .m2_top .top_img img {}
+.main_bg main .m2_notebook .m2_top .top_txt {}
+.main_bg main .m2_notebook .m2_top .top_txt h2 {}
+.main_bg main .m2_notebook .m2_top .top_txt h2 a {}
+.main_bg main .m2_notebook .m2_btm {}
+.main_bg main .m2_notebook .m2_btm .swiper-container {position:relative;}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .slide1 {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .slide2 {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .slide3 {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide p {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide p img {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide dl {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide dl dt {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide dl dd {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-wrapper .swiper-slide a {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-button-prev {}
+.main_bg main .m2_notebook .m2_btm .swiper-container .swiper-button-next {}
+/* m3_tablet */
+.main_bg main .m3_tablet {}
+.main_bg main .m3_tablet {text-align:right;}
+.main_bg main .m3_tablet .m3_top {}
+.main_bg main .m3_tablet .m3_top .top_img {border-radius:0 30px 30px 0;}
+.main_bg main .m3_tablet .m3_top .top_img img {}
+.main_bg main .m3_tablet .m3_top .top_txt {}
+.main_bg main .m3_tablet .m3_top .top_txt h2 {}
+.main_bg main .m3_tablet .m3_top .top_txt h2 a {}
+.main_bg main .m3_tablet .m3_btm {}
+.main_bg main .m3_tablet .m3_btm .swiper-container {position:relative;}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .slide1 {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .slide2 {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .slide3 {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide p {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide p img {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide dl {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide dl dt {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide dl dd {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-wrapper .swiper-slide a {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-button-prev {}
+.main_bg main .m3_tablet .m3_btm .swiper-container .swiper-button-next {}
+/* m4_wearable */
+.main_bg main .m4_wearable {}
+.main_bg main .m4_wearable h1 {}
+.main_bg main .m4_wearable .m4_top {}
+.main_bg main .m4_wearable .m4_top .top_img {}
+.main_bg main .m4_wearable .m4_top .top_img img {}
+.main_bg main .m4_wearable .m4_top .top_txt {}
+.main_bg main .m4_wearable .m4_top .top_txt h2 {}
+.main_bg main .m4_wearable .m4_top .top_txt h2 a {}
+.main_bg main .m4_wearable .m4_btm {}
+.main_bg main .m4_wearable .m4_btm .swiper-container {position:relative;}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .slide1 {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .slide2 {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .slide3 {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .slide4 {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide p {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide p img {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide dl {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide dl dt {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide dl dd {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-wrapper .swiper-slide a {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-button-prev {}
+.main_bg main .m4_wearable .m4_btm .swiper-container .swiper-button-next {}
+/* m5_service */
+.main_bg main .m5_service {
+    max-width:1340px; margin:0 auto; height:max-content;
+    padding:50px 0;
+}
+.main_bg main .m5_service h1 {text-align:center; margin-bottom:20px;}
+.main_bg main .m5_service .m5_contents {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    background-color:#fff; border-radius:30px;
+}
+.main_bg main .m5_service .m5_contents .contents {
+    display:flex; flex-flow:row nowrap; align-items:center; justify-content:center;
+    width:420px; padding:0 16px; height:500px; 
+}
+.main_bg main .m5_service .m5_contents .c1 {}
+.main_bg main .m5_service .m5_contents .c2 {}
+.main_bg main .m5_service .m5_contents .c3 {}
+.main_bg main .m5_service .m5_contents .contents .contents_img {margin-right:10px;}
+.main_bg main .m5_service .m5_contents .contents .contents_img img {}
+.main_bg main .m5_service .m5_contents .contents .contents_txt {}
+.main_bg main .m5_service .m5_contents .contents .contents_txt h2 {font-size:2rem; margin-bottom:10px;}
+.main_bg main .m5_service .m5_contents .contents .contents_txt a {display:flex; flex-flow:row nowrap;}
+.main_bg main .m5_service .m5_contents .contents .contents_txt a span {font-size:1.25rem; line-height:1.4; margin-right:10px;}
+.main_bg main .m5_service .m5_contents .contents .contents_txt a img {width:16px; height:16px;}

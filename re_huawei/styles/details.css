@@ -1,0 +1,79 @@
+.d_main_bg {background-color:#fff8dc;}
+.d_main_bg main {}
+.d_main_bg main .section {max-width:1340px; margin:0 auto; height:100vh;}
+/* p01 */
+.d_main_bg main .p01 {display:flex; justify-content:center; align-items:center; overflow:hidden;}
+.d_main_bg main .p01 .p01_contents {display:flex; justify-content:space-between;}
+.d_main_bg main .p01 .p01_contents .p01_c_left {
+    width:50%; background-color:#fff;
+    background-image:url(../images/details/p1.jpg);
+    background-position:center; background-size:100%; background-repeat:no-repeat;
+}
+.d_main_bg main .p01 .p01_contents .p01_c_right {width:50%; padding:0 40px;}
+.d_main_bg main .p01 .p01_contents .p01_c_right h1 {font-size:2rem; margin:90px 0 30px;}
+.d_main_bg main .p01 .p01_contents .p01_c_right h1 a {}
+.d_main_bg main .p01 .p01_contents .p01_c_right h1 a img {width:50px; height:50px;}
+.d_main_bg main .p01 .p01_contents .p01_c_right .spec {display:flex; flex-flow:row wrap; text-align:left; background-color:gold; width:100%;}
+.d_main_bg main .p01 .p01_contents .p01_c_right .spec dt {width:30%; height:65px; line-height:65px; font-size:1.25rem; background-color:salmon;}
+.d_main_bg main .p01 .p01_contents .p01_c_right .spec dd {width:70%; height:65px; line-height:65px; font-size:1.25rem; background-color:seagreen;}
+.d_main_bg main .p01 .p01_contents .p01_c_right .spec dd span {
+    display:block; width:30px; height:30px; background-color:#d9d9d9; border-radius:50%; line-height:30px;
+}
+
+/* p02, 03, 04, 06, 08, 09 공통 */
+.d_main_bg main .section {display:flex; flex-flow:row nowrap; justify-content:space-between;}
+.d_main_bg main .section .n_txt {
+    width:50%; padding:0 80px; height:100%;
+    display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;
+}
+.d_main_bg main .section .n_txt h2 {font-size:2rem; margin-bottom:50px;}
+.d_main_bg main .section .n_txt h2 p {font-size:1.25rem;}
+.d_main_bg main .section .n_img {width:50%; background-position:center; background-size:100%; background-repeat:no-repeat;}
+.d_main_bg main .p02 .n_img {background-image:url(../images/details/p2.png);}
+.d_main_bg main .p03 .n_img {background-image:url(../images/details/p3.png);}
+.d_main_bg main .p04 .n_img {background-image:url(../images/details/p4.png);}
+.d_main_bg main .p06 .n_img {background-image:url(../images/details/p6.png);}
+.d_main_bg main .p08 .n_img {background-image:url(../images/details/p8.png);}
+.d_main_bg main .p09 .n_img {background-image:url(../images/details/p9.png);}
+
+/* p05 */
+.d_main_bg main .p05 {/* display:none; */}
+.d_main_bg main .p05 .f_img {background-image:url(../images/details/p5.png); width:100%;}
+.d_main_bg main .p05 .f_txt {text-align:center; padding:120px 0 210px;}
+.d_main_bg main .p05 .f_txt h2 {font-size:2rem; margin-bottom:50px;}
+.d_main_bg main .p05 .f_txt h2 p {font-size:1.25rem;}
+/* p07 */
+.d_main_bg main .p07 {/* display:none; */}
+.d_main_bg main .p07 .f_vdo {}
+.d_main_bg main .p07 .f_txt {text-align:center; padding:120px 210px 0;}
+.d_main_bg main .p07 .f_txt h2 {font-size:2rem; margin-bottom:50px;}
+.d_main_bg main .p07 .f_txt h2 p {font-size:1.25rem;}
+/* p10 */
+.d_main_bg main .p10 {display:flex; flex-flow:column;}
+.d_main_bg main .p10 .txt_top {padding:80px;}
+.d_main_bg main .p10 .txt_top p {line-height:1.4;}
+.d_main_bg main .p10 .txt_btm {padding:50px;}
+.d_main_bg main .p10 .txt_btm p {line-height:1.4;}
+
+/* p02,03,04,06,08,09 공통 */
+/* .d_main_bg main .p02,
+.d_main_bg main .p03,
+.d_main_bg main .p04,
+.d_main_bg main .p06,
+.d_main_bg main .p08,
+.d_main_bg main .p09 {display:flex; flex-flow:row nowrap; height:100vh; text-align:center;}
+.d_main_bg main .section .left {}
+.d_main_bg main .section .right {justify-content:flex-end;}
+.d_main_bg main .section .n_img {width:50%; background-position:center; background-size:100%; background-repeat:no-repeat;}
+.d_main_bg main .p02 .n_img {background-image:url(../images/details/p2.png)}
+.d_main_bg main .p03 .n_img {background-image:url(../images/details/p3.png)}
+.d_main_bg main .p04 .n_img {background-image:url(../images/details/p4.png)}
+.d_main_bg main .p06 .n_img {background-image:url(../images/details/p6.png)}
+.d_main_bg main .p08 .n_img {background-image:url(../images/details/p8.png)}
+.d_main_bg main .p09 .n_img {background-image:url(../images/details/p9.png)}
+.d_main_bg main .section .n_txt {
+    width:50%; padding:0 80px;
+    display:flex; flex-flow:column nowrap; justify-content:center; align-items:center;
+}
+.d_main_bg main .section .n_txt h2 {font-size:2rem; margin-bottom:50px;}
+.d_main_bg main .section .n_txt h2 p {font-size:1.25rem;} */
